@@ -1,0 +1,64 @@
+.navbar {
+   background-color: #333;
+   
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   width: calc(100% - 200px);
+   /* Adjust for sidebar width */
+   position: fixed;
+   top: 0;
+   left: 200px;
+   /* Align with sidebar */
+   z-index: 1;
+   /* Ensure it stays on top */
+   padding: 0.5rem 1rem;
+   /* Adjust padding to reduce height */
+   box-sizing: border-box;
+   /* Include padding in width calculation */
+   height: 60px; /* Ensure this matches the padding-top in App.css */
+}
+
+.navbar-menu {
+   list-style: none;
+   display: flex;
+   gap: 1rem;
+}
+
+.navbar-menu li {
+   display: inline;
+}
+
+.navbar-menu a {
+   color: white;
+   text-decoration: none;
+}
+
+.navbar-menu a:hover {
+   text-decoration: underline;
+}
+
+.navbar-user {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+   color: white;
+   margin-left: auto; /* Move to the right */
+}
+
+.navbar-user button {
+   background-color: #555;
+   color: white;
+   border: none;
+   padding: 0.5rem 1rem;
+   cursor: pointer;
+}
+
+.navbar-user button:hover {
+   background-color: #777;
+}
+
+.navbar-content {
+   display: flex;
+   align-items: center;
+}
