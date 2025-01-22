@@ -51,7 +51,7 @@ function Tickets() {
         columns={columns}
         data={ticketsData[activeTab]}
         renderActions={(row) => (
-          <Button text="View" className="text-blue-500 hover:underline" />
+          <Button text="View" className="text-blue-500 text-white hover:underline" />
         )}
       />
     </div>
