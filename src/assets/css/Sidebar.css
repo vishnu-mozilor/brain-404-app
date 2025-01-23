@@ -1,5 +1,5 @@
 .sidebar {
-   width: 200px;
+   width: 230px;
    background-color: #f8f9fa;
    /* background-color: #eff7ff; */
    height: 100vh;
@@ -83,7 +83,7 @@
 }
 
 .content {
-   margin-left: 200px;
+   margin-left: 220px;
    padding: 1rem;
    flex-grow: 1;
 }
