@@ -8,7 +8,7 @@ import KnowledgeBase from "./components/pages/KnowledgeBase";
 import LogoContainer from "./components/global/LogoContainer";
 
 function App() {
-  const userName = "John Doe"; // Example user name
+  const userName = "Brain 404"; // Example user name
   const handleLogout = () => {
     console.log("User logged out");
     // Add your logout logic here
