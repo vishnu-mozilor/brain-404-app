@@ -146,41 +146,7 @@ function Tickets() {
       {/* Header */}
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-2xl font-bold">Tickets</h1>
-        <div className="flex items-center gap-4">
-          <div className="flex items-center gap-2">
-            <span className="text-gray-600">Autopilot</span>
-            <button
-              onClick={() => setAutopilotMode(!autopilotMode)}
-              className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors duration-200 ease-in-out ${
-                autopilotMode ? 'bg-blue-600' : 'bg-gray-200'
-              }`}
-            >
-              <span
-                className={`inline-block h-4 w-4 transform rounded-full bg-white transition duration-200 ease-in-out ${
-                  autopilotMode ? 'translate-x-6' : 'translate-x-1'
-                }`}
-              />
-            </button>
-          </div>
-          <div className="relative">
-            <input
-              type="search"
-              placeholder="Search tickets..."
-              className="pl-10 pr-4 py-2 border rounded-lg w-64"
-            />
-            <span className="absolute left-3 top-1/2 transform -translate-y-1/2">🔍</span>
-          </div>
-          <div className="relative">
-            <IoNotificationsOutline className="text-2xl cursor-pointer" />
-            <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full w-4 h-4 flex items-center justify-center">
-              2
-            </span>
-          </div>
-          <div className="flex items-center gap-2">
-            <img src="/path-to-avatar.jpg" alt="John Smith" className="w-8 h-8 rounded-full" />
-            <span>John Smith</span>
-          </div>
-        </div>
+        
       </div>
 
       {/* Actions Bar */}
