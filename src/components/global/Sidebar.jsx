@@ -8,7 +8,7 @@ import logo from "../../assets/images/brain-404-logo.png"; // Import the logo
 
 function Sidebar() {
   return (
-    <div className="sidebar bg-white w-64 h-screen p-4">
+    <div className="sidebar bg-white w-64 h-screen p-4 pt-0">
       <div className="logo-container mb-8">
         <img src={logo} alt="Brain-404 Logo" className="w-32 mx-auto" />
       </div>
