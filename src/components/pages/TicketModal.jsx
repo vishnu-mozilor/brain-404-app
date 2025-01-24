@@ -41,8 +41,9 @@ function TicketModal({ ticket, onClose }) {
             "Content-Type": "application/json",
           },
           body: JSON.stringify({ 
-            zendesk_ticket_id: ticket.id.replace('#', ''),
-            comment: completeMessage
+            zendesk_ticket_id: ticket.id.replace("#", ""),
+            comment: completeMessage,
+            auto_pilot_enabled: false,
           }),
         }
       );
